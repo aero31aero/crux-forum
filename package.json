@@ -1,0 +1,32 @@
+{
+  "name": "crux-forum",
+  "version": "0.0.1",
+  "description": "A bare minimum JSON based forum skeleton. Create your own GUI to match it.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodejs app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero31aero/crux-forum.git"
+  },
+  "keywords": [
+    "forum"
+  ],
+  "author": "Rohitt Vashishtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aero31aero/crux-forum/issues"
+  },
+  "homepage": "https://github.com/aero31aero/crux-forum#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-js-beautify": "^0.1.4",
+    "grunt-mocha-test": "^0.12.7",
+    "jslint": "^0.10.1",
+    "mocha": "^2.5.3"
+  }
+}
