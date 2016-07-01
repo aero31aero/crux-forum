@@ -1,6 +1,10 @@
-#configuration folder
+# configuration folder
 config
 node_modules/*
+
+# packed node modules
+*.tgz
+
 # Logs
 logs
 *.log

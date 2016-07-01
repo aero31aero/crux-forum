@@ -8,12 +8,12 @@ var forum = function () {
     }
     
     function getExpressRouter(){
-        
+        console.log("Hello World");
     }
     
     return {
         setProfileIntegrator: setProfileIntegrator,
-        getExpressRouter: getExpressRouter;
+        getExpressRouter: getExpressRouter,
     }
 }();
 
