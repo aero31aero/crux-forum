@@ -5,7 +5,7 @@ grunt.loadNpmTasks('grunt-mocha-test');
 grunt.loadNpmTasks('grunt-js-beautify');
 grunt.initConfig({
   jshint: {
-    all: ['Gruntfile.js', 'src/**/*.js', 'app.js']
+    all: ['Gruntfile.js', 'lib/**/*.js', 'app.js']
   },
   js_beautify: {
     options: {
@@ -18,7 +18,7 @@ grunt.initConfig({
       "max_preserve_newlines": 10,
       "jslint_happy": false,
     },
-    files: ['src/**/*.js', 'tests/**/*.js', 'app.js', 'Gruntfile.js']
+    files: ['lib/**/*.js', 'tests/**/*.js', 'app.js', 'Gruntfile.js']
   },
   mochaTest: {
     test: {
